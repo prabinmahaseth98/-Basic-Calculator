@@ -1,0 +1,62 @@
+.buttons:hover{
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 20%)
+}
+.buttons:focus{
+  border: .5px solid grey;
+}
+.operator:hover{
+  box-shadow: 0 0 0 1px #db8867; 
+}
+.equal:hover{
+  box-shadow: 0 0 0 1px #e4a187; 
+}
+
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  border: .2px solid gray;
+}
+.operator {
+  background-color: #de6834; 
+  border: 0px;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  min-width:40px;
+  outline:none;
+}
+.buttons{
+  background-color: none; 
+  border: .5px solid grey;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px; 
+  width:40px;
+  outline:none;
+}
+
+.screen{
+  padding: 7px 16px;
+  border: .5px solid #de6834;
+  text-align: right;
+}
+.equal{
+  background-color: #f5dacf; 
+  border: none;
+  padding: 53px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  color: #de6834;
+  outline:none;
+}
+
+button:focus{border:none}
+© 2021 GitHub, Inc.
